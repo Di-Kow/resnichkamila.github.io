@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body {
+    font-family: Merriweather, serif;
+    background: linear-gradient(270deg, #000000 0%, #010a30 100%);
+} 
+
+
+p {
+    color: rgb(127, 255, 212);
+}
+
+.card-title {
+    color: rgba(199, 231, 226, 0.863);
+    font-size: 1.5em;
+}
+
+.container-flui.row.row.sell {
+    color: rgb(243, 11, 11);
+}
+
+.card {
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px 1px;
+    color: rgb(42, 134, 103);
+    background: linear-gradient(90deg, #000000 0%, #001372 100%);
+}
+
+.card a,
+.slide-text p a {
+    text-decoration: none;
+    color: rgb(127, 255, 212);
+}
+
+.learn-more p a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: rgb(127, 255, 212);
+    /* box-shadow: 5px 5px 10px 1px; */
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(118, 245, 150);
+}
+
+
+.navbar-brand img {
+    width: 35px;
+    /* box-shadow: 5px 5px 10px 1px;    */
+}
+
+.navbar-toggler {
+    background-color: rgb(118, 245, 150);
+}
+
+.sidebar {
+    background: linear-gradient(90deg, #000000 0%, #001372 100%);
+    margin-left: 12px;
+    box-shadow: 5px 5px 10px 1px;
+}
+
+.nav-right {
+    font-size: 0.9em;
+}
+
+.slide-text {
+    margin: auto auto;
+}
+
+.sell>p {
+    color: #d1ff04ec;
+    font-size: 46px;
+    margin-top: 1em;
+}
+
+.sell>a>img,
+.sell>img {
+    width: 80px;
+    height: 80px;
+    
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(150deg, #000000 0%, #001372 100%);
+}
+
+.logo {
+    box-shadow: 5px 5px 10px 1px;
+}
+
+.icon-foot>p>a>img {
+   width: 22px;
+   height: 22px;
+   box-shadow: 5px 5px 10px 1px;
+   margin-inline: 1em;
+}
+
+
+.meVK {
+   width: 22px;
+   height: 22px;
+   box-shadow: 5px 5px 10px 1px;    
+}
+
+.btn-outline-primary>img {
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 10px 1px;
+    margin-inline: 1em;
+ }
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sell-page {
+    display: flex;
+    justify-content:space-between;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.sell-anim {
+    animation: sell 2s ease 0s infinite normal forwards;
+}
+
+@keyframes sell {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+    display: none;
+    }
+}
+
